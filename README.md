@@ -1,4 +1,4 @@
-# MDcolors_z
+# Colors in Discord and Other Apps!
 https://github.com/loneicewolf
 
 ⚠️ Under Construction! Watch for falling objects!
