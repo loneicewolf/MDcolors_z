@@ -1,0 +1,128 @@
+# DISCORD COLOR AND MARKDOWN #
+#==============================#
+
+- - - - - - - - - - - - - - - - - 
+        *Note* 
+Tad bit Unsorted
+- - - - - - - - - - - - - - - - - 
+
+# URLS
+https://raw.githubusercontent.com/loneicewolf/markdown-notes/refs/heads/main/Colors.txt
+https://raw.githubusercontent.com/loneicewolf/markdown-notes/refs/heads/main/plaintext
+
+
+
+
+##########
+## basics
+##########
+```md
+# a
+```
+
+```patch
++ a
+- b
+```
+
+- *a*
+- **a**
+- __a__
+- _a_
+
+
+##########
+## colors
+##########
+```ansi
+[2;30mgray[0m
+[2;31mred[0m
+[2;32mgold[0m
+[2;34mblue[0m
+[2;35mpurple[0m
+[2;36mgreencyan[0m
+```
+
+## Bold Colors
+```ansi
+[1;30mgray[0m
+[1;31mred[0m
+[1;32mgold[0m
+[1;34mblue[0m
+[1;35mpurple[0m
+[1;36mgreencyan[0m
+```
+
+## Colored boxes (multi line)
+```ansi
+[36m
+green
+text
+```
+
+spoiler:
+||abc||
+
+spoiler without text, with code (making a code box)
+||`     `||
+
+----------------------------------------
+COLORS with ANSI
+----------------------------------------
+
+----------------------------------------
+colors 1
+----------------------------------------
+```ansi
+[2;30mgray[0m
+[2;31mred[0m
+[2;32mgold[0m
+[2;34mblue[0m
+[2;35mpurple[0m
+[2;36mgreencyan[0m
+```
+
+----------------------------------------
+colors 2 (**bold text**)
+----------------------------------------
+```ansi
+[1;30mgray[0m
+[1;31mred[0m
+[1;32mgold[0m
+[1;34mblue[0m
+[1;35mpurple[0m
+[1;36mgreencyan[0m
+```
+
+----------------------------------------
+colors 3 (text boxes)
+----------------------------------------
+## Colored boxes (multi line)
+```ansi
+[36m
+green
+text
+```
+
+
+--------------------------------------------------------------------------------
+colors 4 (colored text, and **bold** colored text)
+--------------------------------------------------------------------------------
+```ansi
+- RED [2;31mred[0m [1;31mred[0m [1;31mred[0m
+- GOLD [2;32mgold[0m [1;32mgold[0m
+- BLUE [2;34mblue[0m [1;34mblue[0m
+- PURPLE [2;35mpurple[0m [1;35mpurple[0m
+- GREEN/CYAN [2;36mgreencyan[0m [1;36mgreencyan[0m
+```
+
+```ansi
+[2;31m ABC  [0m[1;31m ABC [0m
+```
+
+```ansi
+[2;32m ABC  [0m[1;33m ABC [0m
+[2;34m ABC  [0m[1;35m ABC [0m
+[2;36m ABC  [0m[1;37m ABC [0m
+```
+
